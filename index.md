@@ -57,7 +57,7 @@ My research focus on Human Robot Interaction, Computer Vision and Deep Learning.
                         <!-- /Title Start -->
                         <div class="title">
                             <h2>Dr. Avinash Kumar Singh</h2>
-                            <h3> </h3>
+                            <!-- <h3> </h3> -->
                         </div>
                         <!-- /Title End -->
                         </div>
