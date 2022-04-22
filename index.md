@@ -81,42 +81,42 @@ My research focus on Human Robot Interaction, Computer Vision and Deep Learning.
                         </li>
                         <!-- Research Projects -->
                         <li>
-                            <a href="research.php">
+                            <a href="research.html">
                             <i class="fa fa-book"></i>
                             <div class="text">Research Projects</div>
                             </a>
                         </li>
                         <!-- Publications -->
                         <li>
-                            <a href="publication.php">
+                            <a href="publication.html">
                             <i class="fa fa-edit"></i>
                             <div class="text">Publications</div>
                             </a>
                         </li>
                         <!-- Talks -->
                         <li>
-                            <a href="talk.php">
+                            <a href="talk.html">
                             <i class="fa fa-microphone"></i>
                             <div class="text">Talks</div>
                             </a>
                         </li>
                         <!-- Gallery -->
                         <li>
-                            <a href="gallery.php">
+                            <a href="gallery.html">
                             <i class="fa fa-group"></i>
                             <div class="text">Gallery</div>
                             </a>
                         </li>
                         <!-- Media Coverage -->
                         <li>
-                            <a href="event.php">
+                            <a href="event.html">
                             <i class="fa fa-clock-o"></i>
                             <div class="text">Media</div>
                             </a>
                         </li>
                         <!-- Academic Services -->
                         <li>
-                            <a href="services.php">
+                            <a href="services.html">
                             <i class="fa fa-gears"></i>
                             <div class="text">Academic Services</div>
                             </a>
