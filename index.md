@@ -67,14 +67,14 @@ My research focus on Human Robot Interaction, Computer Vision and Deep Learning.
                     <ul id="navigation">
                         <!-- About Me -->
                         <li>
-                            <a href="index.md">
+                            <a href="resume.html">
                             <i class="fa fa-user"></i>
                             <div class="text">About Me</div>
                             </a>
                         </li>
                         <!-- Resume -->
                         <li>
-                            <a href="./resume.php">
+                            <a href="./resume.html">
                             <i class="fa fa-file-text-o"></i>
                             <div class="text">Resume</div>
                             </a>
