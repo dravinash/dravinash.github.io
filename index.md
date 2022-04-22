@@ -45,116 +45,105 @@ My research focus on Human Robot Interaction, Computer Vision and Deep Learning.
 <!-- /Wrapper Start -->
 <div id="wrapper">
     <a href="#sidebar" class="mobilemenu"><i class="fa fa-reorder"></i></a>
-        <!-- /Sidebar Start -->
-        <div id="sidebar">
-            <!-- /Sidebar Wrapper Start -->
-            <div id="sidebar-wrapper">
-                <!-- /Sidebar Inner Start -->
-                <div id="sidebar-inner">
-                        <!-- /Profile/logo section Start-->
-                        <div id="profile" class="clearfix">
-                        <div class="portrate hidden-xs"></div>
-                        <!-- /Title Start -->
-                        <div class="title">
-                            <h2>Dr. Avinash Kumar Singh</h2>
-                            <!-- <h3> </h3> -->
-                        </div>
-                        <!-- /Title End -->
-                        </div>
-                        <!-- /Profile/logo End-->
-
-                        <!-- Main navigation Start-->
-                        <div id="main-nav">
-                            <ul id="navigation">
-                                <!-- About Me -->
-                                <li>
-                                  <a href="index.php">
-                                    <i class="fa fa-user"></i>
-                                    <div class="text">About Me</div>
-                                  </a>
-                                </li>
-
-                                <!-- Resume -->
-                                <li>
-                                  <a href="./resume.php">
-                                    <i class="fa fa-file-text-o"></i>
-                                    <div class="text">Resume</div>
-                                  </a>
-                                </li>
-
-                                <!-- Research Projects -->
-                                <li>
-                                  <a href="research.php">
-                                    <i class="fa fa-book"></i>
-                                    <div class="text">Research Projects</div>
-                                  </a>
-                                </li>
-
-                                <!-- Publications -->
-                                <li>
-                                  <a href="publication.php">
-                                    <i class="fa fa-edit"></i>
-                                    <div class="text">Publications</div>
-                                  </a>
-                                </li>
-
-                                <!-- Talks -->
-                                <li>
-                                  <a href="talk.php">
-                                    <i class="fa fa-microphone"></i>
-                                    <div class="text">Talks</div>
-                                  </a>
-                                </li>
-
-                                <!-- Gallery -->
-                                <li>
-                                  <a href="gallery.php">
-                                    <i class="fa fa-group"></i>
-                                    <div class="text">Gallery</div>
-                                  </a>
-                                </li>
-
-                                <!-- Media Coverage -->
-                                <li>
-                                  <a href="event.php">
-                                    <i class="fa fa-clock-o"></i>
-                                    <div class="text">Media</div>
-                                  </a>
-                                </li>
-
-                                <!-- Academic Services -->
-                                <li>
-                                  <a href="services.php">
-                                    <i class="fa fa-gears"></i>
-                                    <div class="text">Academic Services</div>
-                                  </a>
-                                </li>
-
-                                <!-- Poetries -->
-								                <!-- <li>
-                                  <a href="Poetries.php">
-                                      <i class="fa fa-pencil"></i>
-                                      <div class="text">Poetries</div>
-                                  </a>
-                                </li> -->
-
-                                <!-- Downloads -->
-                                <!-- <li class="external">
-                                  <a href="downloads.php">
-                                      <i class="fa fa-download"></i>
-                                      <div class="text">Downloads</div>
-                                  </a>
-                                </li> -->
-
-                            </ul>
-                        </div>
-                        <!-- Main navigation Ends -->
+    <!-- /Sidebar Start -->
+    <div id="sidebar">
+        <!-- /Sidebar Wrapper Start -->
+        <div id="sidebar-wrapper">
+            <!-- /Sidebar Inner Start -->
+            <div id="sidebar-inner">
+                <!-- /Profile/logo section Start-->
+                <div id="profile" class="clearfix">
+                    <div class="portrate hidden-xs"></div>
+                    <!-- /Title Start -->
+                    <div class="title">
+                        <h2>Dr. Avinash Kumar Singh</h2>
+                        <!-- <h3> </h3> -->
+                    </div>
+                    <!-- /Title End -->
                 </div>
-                <!-- /Sidebar Inner End -->
-            </div>
-            <!-- /Sidebar Wrapper End -->
+                <!-- /Profile/logo End-->
+                <!-- Main navigation Start -->
+                <div id="main-nav">
+                    <ul id="navigation">
+                        <!-- About Me -->
+                        <li>
+                            <a href="index.md">
+                            <i class="fa fa-user"></i>
+                            <div class="text">About Me</div>
+                            </a>
+                        </li>
+                        <!-- Resume -->
+                        <li>
+                            <a href="./resume.php">
+                            <i class="fa fa-file-text-o"></i>
+                            <div class="text">Resume</div>
+                            </a>
+                        </li>
+                        <!-- Research Projects -->
+                        <li>
+                            <a href="research.php">
+                            <i class="fa fa-book"></i>
+                            <div class="text">Research Projects</div>
+                            </a>
+                        </li>
+                        <!-- Publications -->
+                        <li>
+                            <a href="publication.php">
+                            <i class="fa fa-edit"></i>
+                            <div class="text">Publications</div>
+                            </a>
+                        </li>
+                        <!-- Talks -->
+                        <li>
+                            <a href="talk.php">
+                            <i class="fa fa-microphone"></i>
+                            <div class="text">Talks</div>
+                            </a>
+                        </li>
+                        <!-- Gallery -->
+                        <li>
+                            <a href="gallery.php">
+                            <i class="fa fa-group"></i>
+                            <div class="text">Gallery</div>
+                            </a>
+                        </li>
+                        <!-- Media Coverage -->
+                        <li>
+                            <a href="event.php">
+                            <i class="fa fa-clock-o"></i>
+                            <div class="text">Media</div>
+                            </a>
+                        </li>
+                        <!-- Academic Services -->
+                        <li>
+                            <a href="services.php">
+                            <i class="fa fa-gears"></i>
+                            <div class="text">Academic Services</div>
+                            </a>
+                        </li>
+                        <!-- Poetries -->
+                                        <!-- <li>
+                            <a href="Poetries.php">
+                                <i class="fa fa-pencil"></i>
+                                <div class="text">Poetries</div>
+                            </a>
+                        </li> -->
+                        <!-- Downloads -->
+                        <!-- <li class="external">
+                            <a href="downloads.php">
+                                <i class="fa fa-download"></i>
+                                <div class="text">Downloads</div>
+                            </a>
+                        </li> -->
+                    </ul>
+                </div>
+                <!-- Main navigation Ends -->
         </div>
-        <!-- /Sidebar End -->
+        <!-- /Sidebar Inner End -->
+    </div>
+    <!-- /Sidebar Wrapper End -->
+</div>
+<!-- /Sidebar End -->
 </div>
 <!-- /Wrapper End -->
 <!-- header ends here -->
