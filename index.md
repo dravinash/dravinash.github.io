@@ -182,7 +182,7 @@ My research focus on Human Robot Interaction, Computer Vision and Deep Learning.
                                         </font></p>
                                         <p align="justify"><font size="4">
                                         My research interests are Human Robot Interaction, Computer Vision and Deep Learning. If you are interested about such projects, you 
-                                        should visit the <a href="./research.php" target="_blank">research page</a> and if you want to know more about my academic and industry journey, please see my <a href="./resume.php" target="_blank"> resume </a>.
+                                        should visit the <a href="./research.html" target="_blank">research page</a> and if you want to know more about my academic and industry journey, please see my <a href="./resume.html" target="_blank"> resume </a>.
                                         </font></p>	
                                         
                                 </div>
