@@ -2,12 +2,12 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Brittany Chiang',
+    title: 'Dr. Avinash Kumar Singh',
     description:
-      'Brittany Chiang is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
+      'Dr. Avinash Kumar Singh is a PHD in Human Robot Interaction from Indian Institute of Information Technology Allahabad. He is currently working with Brane Enterprises LLP and heading the AI division. He has spent more than 10 years working in the domain of machine leanirng and computer vision.',
+    siteUrl: 'https://avinashkumarsingh.in', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
+    twitterUsername: '',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -20,8 +20,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'BrittanyChiang',
-        short_name: 'BrittanyChiang',
+        name: 'Dr. Avinash Kumar Singh',
+        short_name: 'Dr. Avinash Kumar Singh',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,

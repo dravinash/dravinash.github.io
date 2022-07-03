@@ -1,26 +1,38 @@
 module.exports = {
-  email: 'brittany.chiang@gmail.com',
-
+  siteTitle: 'Dr. Avinash Kumar Singh | Computer Vision Engineer | AI Consultant',
+  siteDescription:
+    'Dr. Avinash Kumar Singh is a PHD in Human Robot Interaction from Indian Institute of Information Technology Allahabad. He is currently working with Brane Enterprises LLP and heading the AI division. He has spent more than 10 years working in the domain of machine leanirng and computer vision.',
+  siteKeywords:
+    'Dr Avinash, Dr. Avinash Kumar Singh, Avinash Kumar Singh, Artificial Intelligence, Computer Vision, Natural Language Processing, Deep Leanring, IIIT Allahabd, Umea University, Montpellier University, Postdoctoral Researcher.',
+  siteUrl: 'http://avinashkumarsingh.in/',
+  siteLanguage: 'en_US',
+  googleAnalyticsID: 'UA-45666519-2',
+  googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
+  name: 'Dr. Avinash Kumar Singh',
+  location: 'Hyderabad, India',
+  email: 'avinashkumarsingh1986@gmail.com',
+  github: 'https://github.com/dravinash',
+  twitterHandle: '',
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/bchiang7',
-    },
-    {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/bchiang7',
-    },
-    {
-      name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
+      url: 'https://github.com/dravinash',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bchiang7',
+      url: 'https://www.linkedin.com/in/avinash-kumar-singh-2a570a31/',
     },
     {
       name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
+      url: 'https://scholar.google.co.in/citations?user=eH9aB9kAAAAJ&hl=en',
+    },
+    {
+      name: 'Instagram',
+      url: 'https://www.youtube.com/channel/UCRdJsCCYkkSp9qhqW4Wbh2Q',
+    },
+    {
+      name: 'Twitter',
+      url: '',
     },
   ],
 
@@ -34,7 +46,7 @@ module.exports = {
       url: '/#jobs',
     },
     {
-      name: 'Work',
+      name: 'Projects',
       url: '/#projects',
     },
     {
@@ -43,13 +55,15 @@ module.exports = {
     },
   ],
 
+  navHeight: 100,
+
   colors: {
     green: '#64ffda',
     navy: '#0a192f',
     darkNavy: '#020c1b',
   },
 
-  srConfig: (delay = 200, viewFactor = 0.25) => ({
+  srConfig: (delay = 200) => ({
     origin: 'bottom',
     distance: '20px',
     duration: 500,
@@ -61,7 +75,7 @@ module.exports = {
     mobile: true,
     reset: false,
     useDelay: 'always',
-    viewFactor,
+    viewFactor: 0.25,
     viewOffset: { top: 0, right: 0, bottom: 0, left: 0 },
   }),
 };
