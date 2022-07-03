@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Chandrika Deb | Software Developer | Content Freelancer',
+  siteTitle: 'Dr. Avinash Kumar Singh | Computer Vision Engineer | AI Consultant',
   siteDescription:
     'Chandrika Deb is a Software Developer at Amdocs, who loves learning new things and helping tech beginners.',
   siteKeywords:
