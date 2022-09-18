@@ -3,7 +3,7 @@ date: '4'
 title: 'MLOps End to End Pipeline'
 cover: 'system_flow.png'
 github: ''
-external: 'https://www.youtube.com/watch?v=AAkNyZlUae0'
+external: '/blog_posts/mlops'
 tech:
   - OpenCV
   - TensorFlow

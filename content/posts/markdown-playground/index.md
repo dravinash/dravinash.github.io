@@ -1,9 +1,9 @@
 ---
 title: Markdown Test File
-description: abc234
+description: Testing the markdown effect
 date: '2019-12-07'
-draft: true
-slug: '/pensieve/markdown-playground'
+draft: false
+slug: '/blog_posts/markdown-playground'
 tags:
   - Testing
 ---

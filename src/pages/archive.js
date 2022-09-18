@@ -109,7 +109,7 @@ const ArchivePage = ({ location, data }) => {
   return (
     <Layout location={location}>
       <Helmet>
-        <title>Archive | Chandrika Deb</title>
+        <title>Archive | Dr. Avinash Kumar Singh</title>
         <link rel="canonical" href="https://chandrikadeb7.github.io/archive" />
       </Helmet>
 

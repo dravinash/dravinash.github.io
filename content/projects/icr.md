@@ -4,10 +4,11 @@ title: 'Intelligent Character Recognition'
 github: 'https://github.com/chandrikadeb7/learning-easy-golang'
 external: ''
 tech:
-  - Go
-  - Rest API
-company: ''
+  - CNN
+  - LSTM
+  - TensorFlow
+company: 'HCL'
 showInProjects: true
 ---
 
-Collection of small code gists along my Golang learning journey
+Retrained an existing opensource solution OCROPY to recognize hand written text.
