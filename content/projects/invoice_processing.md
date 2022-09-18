@@ -2,7 +2,7 @@
 date: '2018-12-30'
 title: 'Invoice Processing'
 github: 'https://github.com/dravinash/course_recommendation_system'
-external: 'https://www.youtube.com/watch?v=WA_zHBOXka8&t=53s'
+external: 'https://www.youtube.com/watch?v=WA_zHBOXka8'
 tech:
   - Text Detection
   - Faster RCNN

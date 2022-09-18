@@ -1,8 +1,8 @@
 ---
 date: '2018-06-30'
 title: 'Intelligent Character Recognition'
-github: 'https://github.com/chandrikadeb7/learning-easy-golang'
-external: ''
+github: 'https://github.com/dravinash/course_recommendation_system'
+external: 'https://www.youtube.com/watch?v=WA_zHBOXka8'
 tech:
   - CNN
   - LSTM

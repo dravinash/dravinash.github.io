@@ -3,7 +3,7 @@ date: '3'
 title: 'Multi Label Image Classification'
 cover: 'mlic.jpg'
 github: 'https://github.com/dravinash/course_recommendation_system'
-external: 'https://www.youtube.com/watch?v=AAkNyZlUae0'
+external: 'https://www.youtube.com/watch?v=WA_zHBOXka8'
 tech:
   - OpenCV
   - TensorFlow

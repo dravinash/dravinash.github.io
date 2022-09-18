@@ -2,7 +2,7 @@
 date: '2019-06-30'
 title: 'Optical Character Recognition'
 github: 'https://github.com/dravinash/course_recommendation_system'
-external: 'https://www.youtube.com/watch?v=WA_zHBOXka8&t=53s'
+external: 'https://www.youtube.com/watch?v=WA_zHBOXka8'
 tech:
   - CTPN
   - Tesseract

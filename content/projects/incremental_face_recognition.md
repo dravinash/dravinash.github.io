@@ -1,8 +1,8 @@
 ---
 date: '2020-06-30'
 title: 'Incremental Face Recognition'
-github: 'https://github.com/chandrikadeb7/kubernetes-handbook'
-external: 'https://amdocs-1.gitbook.io/kubernetes-handbook/'
+github: 'https://github.com/dravinash/course_recommendation_system'
+external: 'https://www.youtube.com/watch?v=WA_zHBOXka8'
 tech:
   - Distillation Loss
   - CNN
