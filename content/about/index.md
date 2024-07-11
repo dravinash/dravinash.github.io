@@ -2,6 +2,7 @@
 title: 'About Me'
 avatar: 'me.jpg'
 skills:
+  - Generative AI
   - Deep Learning
   - Machine Learning
   - Computer Vision
@@ -15,6 +16,6 @@ I got the opportunity to work on the extension of my Ph.D work in two subsequent
 
 I was associated with LIRMM lab [Montpellier University France](https://www.lirmm.fr/lirmm-en/) as a post-doctoral researcher. This was my second postdoctoral, there we trained a deep neural network model to understand human activities in industrial setup for better Human robot collaboration. I was the part of [H2020 project SOPHIA](https://project-sophia.eu/) and incharge of work package 5.  
 
-I have 10+ years experience working with artificial intelligence and applying this as a tool to solve different problems. I have worked with different organization ([eClerx](https://eclerx.com/), [HCL](https://www.hcltech.com/), [In-D](https://in-d.ai/)) and helped them to designed, developed and execute AI based solutions.
+I have 10+ years experience working with artificial intelligence and applying this as a tool to solve different problems. I have worked with different organization ([eClerx](https://eclerx.com/), [HCL](https://www.hcltech.com/), [In-D](https://in-d.ai/)) and helped them to designe, develope and execute AI based solutions.
 
 Here is a list of the technologies that I'm familiar with!
