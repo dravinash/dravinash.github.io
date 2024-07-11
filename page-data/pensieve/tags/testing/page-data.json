@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-tag-js",
-    "path": "/pensieve/tags/testing/",
-    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"frontmatter":{"title":"Markdown Test File","description":"Testing the markdown effect","date":"2019-12-07","slug":"/blog_posts/markdown-playground","tags":["Testing"]}}}]}},"pageContext":{"tag":"Testing"}},
-    "staticQueryHashes": ["3115057458"]}
+{"componentChunkName":"component---src-templates-tag-js","path":"/pensieve/tags/testing/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"frontmatter":{"title":"Markdown Test File","description":"Testing the markdown effect","date":"2019-12-07","slug":"/blog_posts/markdown-playground","tags":["Testing"]}}}]}},"pageContext":{"tag":"Testing"}},"staticQueryHashes":["3115057458"]}
