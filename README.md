@@ -53,4 +53,8 @@ I forked this repo from [Brittany Chiang](https://github.com/bchiang7) and modif
    npm run deploy
    ```
 
-3. Alternatively, you can run the ''' deploy.bat ''' file.
+3. Alternatively, you can run the below file.
+
+   ```sh
+   deploy.bat
+   ```
