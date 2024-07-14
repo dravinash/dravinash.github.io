@@ -13,6 +13,7 @@ const StyledContainer = styled(Section)`
   ${mixins.flexCenter};
   flex-direction: column;
   align-items: flex-start;
+  text-align: justify;
 `;
 const StyledTitle = styled.h4`
   margin: 0 auto;
@@ -35,7 +36,7 @@ const StyledArchiveLink = styled(Link)`
 const StyledGrid = styled.div`
   margin-top: 50px;
   margin-left: 1%;
-
+  text-align: justify;
   .projects {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -52,6 +53,7 @@ const StyledProjectInner = styled.div`
   position: relative;
   padding: 2rem 1.75rem;
   height: 100%;
+  text-align: justify;
   border-radius: ${theme.borderRadius};
   transition: ${theme.transition};
   background-color: ${colors.lightNavy};
@@ -98,6 +100,7 @@ const StyledProjectName = styled.h5`
 `;
 const StyledProjectDescription = styled.div`
   font-size: 17px;
+  text-align: justify;
   color: ${colors.lightSlate};
   a {
     ${mixins.inlineLink};

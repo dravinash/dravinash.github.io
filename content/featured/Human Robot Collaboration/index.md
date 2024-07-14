@@ -3,7 +3,7 @@ date: '1'
 title: 'Human Robot Collaboration'
 cover: 'human_robot_collaboration.png'
 github: ''
-external: 'https://www.youtube.com/watch?v=WA_zHBOXka8'
+external: 'https://www.youtube.com/watch?v=2GNWYsOfDYw'
 tech:
   - OpenCV
   - TensorFlow

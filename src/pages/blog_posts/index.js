@@ -14,14 +14,14 @@ const StyledMainContainer = styled(Main)`
     text-align: center;
     margin-bottom: 100px;
 
-    a {
-      &:hover,
-      &:focus {
-        cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>⚡</text></svg>")
-            20 0,
-          auto;
-      }
-    }
+    // a {
+    //   &:hover,
+    //   &:focus {
+    //     cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>⚡</text></svg>")
+    //         20 0,
+    //       auto;
+    //   }
+    // }
   }
 
   footer {
@@ -35,6 +35,7 @@ const StyledGrid = styled.div`
 
   .posts {
     display: grid;
+    text-align: justify;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 15px;
     position: relative;
@@ -46,6 +47,7 @@ const StyledPostInner = styled.div`
   ${mixins.flexBetween};
   flex-direction: column;
   align-items: flex-start;
+  text-align: justify;
   position: relative;
   padding: 2rem 1.75rem;
   height: 100%;
@@ -60,6 +62,7 @@ const StyledPostInner = styled.div`
 const StyledPost = styled.div`
   transition: ${theme.transition};
   cursor: default;
+  text-align: justify;
   &:hover,
   &:focus {
     outline: 0;
@@ -75,8 +78,8 @@ const StyledPostHeader = styled.div`
 const StyledFolder = styled.div`
   color: ${colors.green};
   svg {
-    width: 40px;
-    height: 40px;
+    width: 0px; // Original Width 40
+    height: 0px; // Original Height 40
   }
 `;
 const StyledPostName = styled.h5`
@@ -86,16 +89,19 @@ const StyledPostName = styled.h5`
 `;
 const StyledPostDescription = styled.div`
   font-size: 17px;
+  text-align: justify;
   color: ${colors.lightSlate};
 `;
 const StyledDate = styled.span`
   text-transform: uppercase;
+  text-align: justify;
   font-family: ${fonts.SFMono};
   font-size: ${fontSizes.xs};
   color: ${colors.lightSlate};
 `;
 const StyledTags = styled.ul`
   display: flex;
+  text-align: justify;
   align-items: flex-end;
   flex-wrap: wrap;
   padding: 0;
@@ -107,6 +113,7 @@ const StyledTags = styled.ul`
     font-size: ${fontSizes.xs};
     color: ${colors.green};
     line-height: 1.75;
+    text-align: justify;
     margin-right: 15px;
     &:last-of-type {
       margin-right: 0;

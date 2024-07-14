@@ -31,6 +31,7 @@ const StyledPostContent = styled.div`
   p {
     margin: 1em 0;
     line-height: 1.5;
+    text-align: justify;
     color: ${colors.lightSlate};
   }
 `;

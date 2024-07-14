@@ -15,6 +15,7 @@ const StyledContainer = styled(Section)`
 `;
 const StyledContent = styled.div`
   position: relative;
+  text-align: justify;
   grid-column: 1 / 7;
   grid-row: 1 / -1;
   ${media.thone`
@@ -47,6 +48,7 @@ const StyledDescription = styled.div`
   position: relative;
   z-index: 2;
   padding: 25px;
+  text-align: justify;
   background-color: ${colors.lightNavy};
   color: ${colors.lightSlate};
   font-size: ${fontSizes.lg};

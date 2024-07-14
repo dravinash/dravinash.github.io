@@ -121,6 +121,7 @@ const StyledTabContent = styled.div`
   position: relative;
   width: 100%;
   height: auto;
+  text-align: justify;
   padding-top: 12px;
   padding-left: 30px;
   ${media.tablet`padding-left: 20px;`};

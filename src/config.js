@@ -20,7 +20,7 @@ module.exports = {
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/avinash-kumar-singh-2a570a31/',
+      url: 'https://www.linkedin.com/in/dr-avinash-kumar-singh-2a570a31/',
     },
     {
       name: 'Codepen',
@@ -48,6 +48,10 @@ module.exports = {
     {
       name: 'Projects',
       url: '/#projects',
+    },
+    {
+      name: 'Blog',
+      url: '/blog_posts',
     },
     {
       name: 'Contact',

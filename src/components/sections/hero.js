@@ -47,6 +47,7 @@ const StyledDescription = styled.div`
   margin-top: 25px;
   width: 50%;
   max-width: 500px;
+  text-align: justify;
   a {
     ${mixins.inlineLink};
   }

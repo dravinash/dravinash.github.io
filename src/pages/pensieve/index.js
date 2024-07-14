@@ -14,14 +14,14 @@ const StyledMainContainer = styled(Main)`
     text-align: center;
     margin-bottom: 100px;
 
-    a {
-      &:hover,
-      &:focus {
-        cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>⚡</text></svg>")
-            20 0,
-          auto;
-      }
-    }
+    // a {
+    //   &:hover,
+    //   &:focus {
+    //     cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>⚡</text></svg>")
+    //         20 0,
+    //       auto;
+    //   }
+    // }
   }
 
   footer {
@@ -86,10 +86,12 @@ const StyledPostName = styled.h5`
 `;
 const StyledPostDescription = styled.div`
   font-size: 17px;
+  text-align: justify;
   color: ${colors.lightSlate};
 `;
 const StyledDate = styled.span`
   text-transform: uppercase;
+  text-align: justify;
   font-family: ${fonts.SFMono};
   font-size: ${fontSizes.xs};
   color: ${colors.lightSlate};

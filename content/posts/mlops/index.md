@@ -2,7 +2,7 @@
 title: MLOps End to End Pipeline
 description: Created end to end workflow that helps in managing different stages of machine learning projects. 
 date: '2022-06-30'
-draft: false
+draft: true
 slug: '/blog_posts/mlops'
 tags:
   - OpenCV
