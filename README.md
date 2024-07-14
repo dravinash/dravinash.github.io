@@ -11,7 +11,7 @@
 
 ### TL;DR
 
-I forked this repo from [Brittany Chiang] (https://github.com/bchiang7) and modified according to my needs. Please refer to her github page for your reference.
+I forked this repo from [Brittany Chiang](https://github.com/bchiang7) and modified according to my needs. Please refer to her github page for your reference.
 
 ## 🛠 Installation & Set Up
 
