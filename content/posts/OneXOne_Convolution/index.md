@@ -10,34 +10,45 @@ tags:
 ---
 
 ## Overview
-Recently while I was reading about the Self Attention Model being that was used over images. I heard about this term, 1x1 convolutions. It was beng used in calculating the Key, Query and Value. I first find it funny but when I went deeper to understand this guy. I was impressed.
-In crafted a three step process to understand this concept.
+Recently while I was reading about the Self Attention Model that was used over images. I heard about this term, 1x1 convolutions. It was being used in calculating the Key, Query and Value. I first find it funny but when I went deeper to understand this guy. I was impressed.
+I crafted a three step process to understand this concept. What is 1x1 convolution, why it is useful and where all the places it is utilized.
 
-### Why we even need this?
-Well 
+### What is 1x1 convolution
+#### Some Background on Convolution Operation
+Well in order to understand the 1x1 convolution, we need to first understand the convolution operation and the complexity involved in the underlaying operation that it uses.
 
-> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+Let's say we have a RGB image of dimension 6x6x3 and we want to apply a convolution layer having filter size 3x3, number of filters as 2, activation function as ReLU. Lets say this produces the output that is represented by 'O'. The mathematical equation to understand this is given below. The filter is represent by 'F' while the super script shows the Filter number the sub script denotes the input channel.
+![](./CNN-1.jpeg)
+![](./CNN-2.jpeg)
+![](./CNN-3.jpeg)
+![](./CNN-4.jpeg)
+Lets validate these numbers such as output feature map dimension and the number of learning parameter by implementing the same example in tensorflow.
 
-```shell:title=bin/composer
-#!/bin/bash
-docker-compose exec -w /var/www/html/wp-content/themes/skela wordpress composer "$@"
+```python:title=Conv2D.py
+import tensorflow as tf
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Conv2D
+
+# Define the model
+model = Sequential()
+
+# Add a 2D convolution layer
+model.add(Conv2D(filters=2, kernel_size=(3, 3), activation='relu', input_shape=(6, 6, 3)))
+
+# Summary of the model
+model.summary()
 ```
 
-When trying to run this script via `./bin/composer install`, I got this error in my terminal:
+The output of the network is displayed below.
+![](./CNN-5.png)
 
-```shell
-ERROR: Setting workdir for exec is not supported in API < 1.35 (1.30)
-```
+#### Challenges with normal convolution filters
+> 1. Reduces the feature dimension
+This is the 
+> 2. High Complexity
+> 3. Lacking in adding the non-linearity
 
-The error was coming from the `-w` flag in the `docker-compose exec` command in the `composer` script.
+#### What is 1x1 convolution
 
-## Solution
+### 1x1 Applications
 
-Turns The fix was to update the version in my `docker-compose.yml` file to from version `3.5` to `3.6`. It's strange because 3.5 isn't anywhere close to the API version `1.35` from the error message 🤷‍♀️
-
-```yaml:title=docker-compose.yml
-version: '3.6' # highlight-line
-services:
-  wordpress:
-    build:
-```
