@@ -6,7 +6,7 @@ range: 'May 2020 - Present'
 url: 'https://www.braneenterprises.com/ai-product'
 ---
 
-Brane is a private Indian startup that deals in AI and Robotics product. I am currently heading the AI division, below are some of the projects that we successfully delivered.
+Brane is a private Indian startup that deals in AI and Robotics product. I am currently mentoring the AI initiatives, below are some of the projects that we successfully delivered.
 
 - Implemented a Face Recognition-based office attendance system, replacing the existing RFID system, and achieving organization-wide deployment.
 - The system serves 2,856 employees with a 97.63% accuracy rate, resulting in annual savings in operational costs.
