@@ -10,7 +10,7 @@ tags:
 ---
 
 ## Overview
-Recently, while diving into the Self-Attention Model applied to images, I came across the term `1x1 convolutions`. At first, it sounded amusing, but as I dug deeper to understand it, I was thoroughly impressed. To make sense of this concept, I crafted a three-step process: what is a 1x1 convolution, why it's useful, and where it is utilized.
+Recently, while diving into the Self-Attention Model applied to images, I came across the term `1x1 convolutions`. At first, it sounded amusing, but as I dug deeper to understand it, I was thoroughly impressed. To make sense of this concept, I crafted a three-step process: <font color=#64ffda>what is a 1x1 convolution</font>, <font color=#64ffda>how it works</font>, <font color=#64ffda>math behind this</font> and <font color=#64ffda>why it's useful</font>.
 
 ## Some Background on Convolution Operation
 To understand the 1x1 convolution, we first need to grasp the convolution operation and the complexity involved in the underlying process[^1]. Consider an RGB image with dimensions 6x6x3, and we want to apply a convolution layer with a filter size of 3x3, with 2 filters, and a ReLU activation function. Let's denote the output by 'O'. The mathematical representation for this operation is given below. Here, 'F' represents the filter, the superscript indicates the filter number, and the subscript denotes the input channel.
