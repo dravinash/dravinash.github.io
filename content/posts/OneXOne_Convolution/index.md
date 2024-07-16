@@ -3,7 +3,7 @@ title: 1x1 Convolution
 description: Why does someone use a 1x1 convolution? And why is it called 1x1? It sounds like a pixel-sized joke! When it first showed up, people probably thought it was a prank. But hold on, let's dive deep into this mysterious little guy and unravel the math magic behind it.
 date: '2024-07-11'
 draft: false
-slug: '/blog_posts/OneXOne_Convolution'
+slug: '/blog/OneXOne_Convolution'
 tags:
   - CNN
   - TensorFlow
