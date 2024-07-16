@@ -54,7 +54,7 @@ const TagsPage = ({
       <ul className="fancy-list">
         {group.map(tag => (
           <li key={tag.fieldValue}>
-            <Link to={`/blog_posts/tags/${kebabCase(tag.fieldValue)}/`}>
+            <Link to={`/pensieve/tags/${kebabCase(tag.fieldValue)}/`}>
               {tag.fieldValue} <span className="count">({tag.totalCount})</span>
             </Link>
           </li>

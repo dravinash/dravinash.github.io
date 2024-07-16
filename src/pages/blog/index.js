@@ -12,7 +12,7 @@ const { colors, fontSizes, fonts } = theme;
 const StyledMainContainer = styled(Main)`
   & > header {
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
 
     // a {
     //   &:hover,
@@ -35,7 +35,6 @@ const StyledGrid = styled.div`
 
   .posts {
     display: grid;
-    text-align: justify;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 15px;
     position: relative;
@@ -47,7 +46,6 @@ const StyledPostInner = styled.div`
   ${mixins.flexBetween};
   flex-direction: column;
   align-items: flex-start;
-  text-align: justify;
   position: relative;
   padding: 2rem 1.75rem;
   height: 100%;
@@ -62,7 +60,6 @@ const StyledPostInner = styled.div`
 const StyledPost = styled.div`
   transition: ${theme.transition};
   cursor: default;
-  text-align: justify;
   &:hover,
   &:focus {
     outline: 0;
@@ -78,8 +75,8 @@ const StyledPostHeader = styled.div`
 const StyledFolder = styled.div`
   color: ${colors.green};
   svg {
-    width: 0px; // Original Width 40
-    height: 0px; // Original Height 40
+    width: 40px;
+    height: 40px;
   }
 `;
 const StyledPostName = styled.h5`
@@ -101,7 +98,6 @@ const StyledDate = styled.span`
 `;
 const StyledTags = styled.ul`
   display: flex;
-  text-align: justify;
   align-items: flex-end;
   flex-wrap: wrap;
   padding: 0;
@@ -113,7 +109,6 @@ const StyledTags = styled.ul`
     font-size: ${fontSizes.xs};
     color: ${colors.green};
     line-height: 1.75;
-    text-align: justify;
     margin-right: 15px;
     &:last-of-type {
       margin-right: 0;
@@ -130,7 +125,7 @@ const PensievePage = ({ location, data }) => {
   return (
     <Layout location={location}>
       <Helmet>
-        <title>Blog | Dr. Avinash Kumar Singh</title>
+        <title>Articles | Dr. Avinash Kumar Singh</title>
         <link rel="canonical" href="https://github.com/dravinash" />
       </Helmet>
 
@@ -139,7 +134,7 @@ const PensievePage = ({ location, data }) => {
           <h1 className="big-title">Blog Posts</h1>
           <p className="subtitle">
             <a
-              href="http://avinashkumarsingh.in/blog_posts"
+              href="/blog"
               target="_blank"
               rel="noopener noreferrer">
               a collection of articles
@@ -174,7 +169,7 @@ const PensievePage = ({ location, data }) => {
                         <StyledTags>
                           {tags.map((tag, i) => (
                             <li key={i}>
-                              <Link to={`/blog_posts/tags/${kebabCase(tag)}/`}>#{tag}</Link>
+                              <Link to={`/pensieve/tags/${kebabCase(tag)}/`}>#{tag}</Link>
                             </li>
                           ))}
                         </StyledTags>
