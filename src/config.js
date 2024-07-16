@@ -51,7 +51,7 @@ module.exports = {
     },
     {
       name: 'Blog',
-      url: '/blog_posts',
+      url: '/blog',
     },
     {
       name: 'Contact',
